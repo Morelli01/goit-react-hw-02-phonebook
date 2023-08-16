@@ -85,19 +85,6 @@ export class App extends Component {
           color: '#010101',
         }}
       >
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            width: '200px',
-            height: '50px',
-            color: 'red',
-            border: 'thick double #32a1ce',
-          }}
-        >
-          Local time {this.state.timer}
-        </div>
         <h1>Phonebook</h1>
         <ContactForm handleSubmit={this.handleSubmit} />
         <h2> Contacts</h2>
